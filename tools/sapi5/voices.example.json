@@ -1,0 +1,56 @@
+{
+  "voices": [
+    {
+      "Token": "MinimaxTTS-zh-Yunxi",
+      "Name": "MinimaxTTS - Edge Chinese Yunxi",
+      "Lang": "0804",
+      "Gender": "Female",
+      "Provider": "edge",
+      "Model": "tts-1",
+      "Voice": "zh-CN-YunxiNeural",
+      "Endpoint": "http://127.0.0.1:5050",
+      "Path": "/v1/speech",
+      "Rate": "1.0",
+      "TimeoutMs": "15000"
+    },
+    {
+      "Token": "MinimaxTTS-en-Aria",
+      "Name": "MinimaxTTS - Edge English Aria",
+      "Lang": "0409",
+      "Gender": "Female",
+      "Provider": "edge",
+      "Model": "tts-1",
+      "Voice": "en-US-AriaNeural",
+      "Endpoint": "http://127.0.0.1:5050",
+      "Path": "/v1/speech",
+      "Rate": "1.0",
+      "TimeoutMs": "15000"
+    },
+    {
+      "Token": "MinimaxTTS-mm-zh-voice-01",
+      "Name": "MinimaxTTS - MiniMax Chinese Voice 01",
+      "Lang": "0804",
+      "Gender": "Female",
+      "Provider": "minimax",
+      "Model": "speech-2.8-hd",
+      "Voice": "replace_with_minimax_voice_id",
+      "Endpoint": "http://127.0.0.1:5050",
+      "Path": "/v1/speech",
+      "Rate": "1.0",
+      "TimeoutMs": "20000"
+    },
+    {
+      "Token": "MinimaxTTS-mm-en-voice-01",
+      "Name": "MinimaxTTS - MiniMax English Voice 01",
+      "Lang": "0409",
+      "Gender": "Male",
+      "Provider": "minimax",
+      "Model": "speech-2.8-hd",
+      "Voice": "replace_with_minimax_voice_id",
+      "Endpoint": "http://127.0.0.1:5050",
+      "Path": "/v1/speech",
+      "Rate": "1.0",
+      "TimeoutMs": "20000"
+    }
+  ]
+}

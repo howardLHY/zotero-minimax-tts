@@ -1,0 +1,47 @@
+# Build outputs
+*.exe
+*.dll
+*.obj
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.zip
+*.wav
+*.log
+*.bak
+
+# Windows / Visual Studio temporary files
+.vs/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.cachefile
+*.VC.db
+ipch/
+[Bb]in/
+[Oo]bj/
+
+# Build outputs specific to this repo
+build/
+tools/manager-package/
+tools/sapi5/*.bak
+tools/sapi5/sapi5_engine.log
+tools/sapi5/sapi5_engine.*.log
+tools/__pycache__/
+*.pyc
+
+# csc.exe sometimes produces GUID-prefixed executables next to the source
+tools/manager/[0-9a-fA-F-]*_MinimaxTTSManager.exe
+
+# macOS
+.DS_Store
+
+# Local secrets and runtime config
+.env
+.env.*
+!/.env.example
+*.local
+config.json
+voices.json

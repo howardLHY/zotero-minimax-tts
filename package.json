@@ -1,0 +1,18 @@
+{
+  "name": "minimax-sapi5-bridge",
+  "version": "0.1.0",
+  "description": "Expose cloud or local TTS providers as Windows SAPI5 voices for Zotero, Word, and any app that uses Microsoft Speech API.",
+  "main": "tools/manager/MinimaxTTSManager.cs",
+  "scripts": {
+    "build:manager": "csc /nologo /utf8output /codepage:65001 /target:winexe /platform:x64 /optimize+ /out:tools/manager/MinimaxTTSManager.exe /r:System.dll /r:System.Core.dll /r:System.Drawing.dll /r:System.Windows.Forms.dll /r:System.Web.Extensions.dll tools/manager/MinimaxTTSManager.cs",
+    "build:sapi5": "cd tools/sapi5 && build.bat",
+    "build:python": "echo Run 'pip install flask edge-tts miniaudio' before using tools/openai_edge_tts_server.py"
+  },
+  "author": "howardLHY",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/howardLHY/zotero-minimax-tts.git"
+  },
+  "homepage": "https://github.com/howardLHY/zotero-minimax-tts#readme"
+}

@@ -1,0 +1,7 @@
+LIBRARY http_sapi5_engine
+
+EXPORTS
+    DllGetClassObject     PRIVATE
+    DllCanUnloadNow       PRIVATE
+    DllRegisterServer     PRIVATE
+    DllUnregisterServer   PRIVATE
